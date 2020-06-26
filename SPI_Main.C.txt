@@ -1,0 +1,22 @@
+
+
+/*
+* Master Slave SPI Protocol
+* Created By : ENG- Khalid Ibrahim
+*/
+#include "lcd.h"
+#include "SPI_EEPROM.h"
+int main(void)
+{
+	INT8U data =0;
+	LCD_Init();
+	LCD_DispChar('1');
+	SPI_EEPROM_Init();
+	
+	SPI_EEPROM_WriteByte(16,'A');
+		LCD_DispChar('2');
+	data=SPI_EEPROM_ReadByte(16);
+	LCD_DispChar('Y');
+	LCD_DispChar(data);
+	while(1){}
+}
