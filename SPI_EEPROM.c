@@ -2,7 +2,7 @@
  * SPI_EEPROM.c
  *
  * Created: 07/06/2020 02:10:11 م
- *  Author: BODY
+ *  Author: Khalid Ibrahim
  */ 
 
 #include "SPI_EEPROM.h"
