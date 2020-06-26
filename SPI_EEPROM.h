@@ -2,8 +2,7 @@
  * SPI_EEPROM.h
  *
  * Created: 07/06/2020 02:00:59 م
- *  Author: BODY
- */ 
+ *  Author:Khalid Ibrahim
 
 
 #ifndef SPI_EEPROM_H_
