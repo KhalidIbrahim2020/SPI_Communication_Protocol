@@ -2,7 +2,7 @@
  * SPI.c
  *
  * Created: 07/06/2020 10:29:25 ص
- *  Author: BODY
+ *  Author: Khalid Ibrahim
  */ 
 #include "SPI.h"
 
